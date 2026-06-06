@@ -1,0 +1,25 @@
+{
+  "name": "gerador-de-senhas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "test": "jest",
+  "build": "echo Build finalizado com sucesso"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vivianvazr/gerador-de-senhas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vivianvazr/gerador-de-senhas/issues"
+  },
+  "homepage": "https://github.com/Vivianvazr/gerador-de-senhas#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
