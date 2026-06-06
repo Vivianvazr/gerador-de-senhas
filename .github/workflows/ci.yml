@@ -5,9 +5,6 @@ on:
   pull_request:
   workflow_dispatch:
 
-env:
-  PROJECT_NAME: gerador-de-senhas
-
 jobs:
   test-and-build:
     runs-on: ubuntu-latest
@@ -16,19 +13,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Configurar Node
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Mostrar variável
-        run: echo "Projeto: $PROJECT_NAME"
-
-      - name: Instalar dependências
+      - name: Install
         run: npm install
 
-      - name: Executar testes
+      - name: Test
         run: npm test
 
-      - name: Executar build
+      - name: Build
         run: npm run build
