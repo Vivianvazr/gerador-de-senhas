@@ -5,9 +5,6 @@ on:
   pull_request:
   workflow_dispatch:
 
-env:
-  PROJECT_NAME: gerador-de-senhas
-
 jobs:
   test-and-build:
     runs-on: ubuntu-latest
