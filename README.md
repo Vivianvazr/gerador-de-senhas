@@ -1,4 +1,3 @@
-# gerador-de-senhas 
 # Relatório de Elicitação de Requisitos
 
 ## Projeto: Gerador de Senhas
